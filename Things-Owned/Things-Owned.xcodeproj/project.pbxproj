@@ -15,7 +15,6 @@
 		FE6467CD258948FD00D58091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE6467CB258948FD00D58091 /* LaunchScreen.storyboard */; };
 		FE6467D8258948FD00D58091 /* Things_OwnedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6467D7258948FD00D58091 /* Things_OwnedTests.swift */; };
 		FE6467E3258948FD00D58091 /* Things_OwnedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6467E2258948FD00D58091 /* Things_OwnedUITests.swift */; };
-		FE64680425894BA200D58091 /* LaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = FE64680325894BA100D58091 /* LaunchScreen.png */; };
 		FE825DE325894D3D00D8CCC4 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE825DE225894D3D00D8CCC4 /* PageViewController.swift */; };
 		FE825DF325894D9F00D8CCC4 /* previewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE825DF225894D9F00D8CCC4 /* previewPage.swift */; };
 /* End PBXBuildFile section */
@@ -52,7 +51,6 @@
 		FE6467DE258948FD00D58091 /* Things-OwnedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Things-OwnedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6467E2258948FD00D58091 /* Things_OwnedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Things_OwnedUITests.swift; sourceTree = "<group>"; };
 		FE6467E4258948FD00D58091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE64680325894BA100D58091 /* LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchScreen.png; path = "../../../../../.Trash/Images 1.52.44 PM/LaunchScreen.png"; sourceTree = "<group>"; };
 		FE825DE225894D3D00D8CCC4 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		FE825DF225894D9F00D8CCC4 /* previewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = previewPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,7 +83,7 @@
 		FE6467B4258948F800D58091 = {
 			isa = PBXGroup;
 			children = (
-				FE64680225894B9300D58091 /* Images */,
+				FE825E0E25894FB200D8CCC4 /* Images */,
 				FE6467BF258948F800D58091 /* Things-Owned */,
 				FE6467D6258948FD00D58091 /* Things-OwnedTests */,
 				FE6467E1258948FD00D58091 /* Things-OwnedUITests */,
@@ -137,10 +135,9 @@
 			path = "Things-OwnedUITests";
 			sourceTree = "<group>";
 		};
-		FE64680225894B9300D58091 /* Images */ = {
+		FE825E0E25894FB200D8CCC4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				FE64680325894BA100D58091 /* LaunchScreen.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -250,7 +247,6 @@
 			files = (
 				FE6467CD258948FD00D58091 /* LaunchScreen.storyboard in Resources */,
 				FE6467CA258948FD00D58091 /* Assets.xcassets in Resources */,
-				FE64680425894BA200D58091 /* LaunchScreen.png in Resources */,
 				FE6467C8258948F800D58091 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
