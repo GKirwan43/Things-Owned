@@ -15,6 +15,8 @@
 		FE6467CD258948FD00D58091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE6467CB258948FD00D58091 /* LaunchScreen.storyboard */; };
 		FE6467D8258948FD00D58091 /* Things_OwnedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6467D7258948FD00D58091 /* Things_OwnedTests.swift */; };
 		FE6467E3258948FD00D58091 /* Things_OwnedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6467E2258948FD00D58091 /* Things_OwnedUITests.swift */; };
+		FE6467F925894A4A00D58091 /* previewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6467F625894A4A00D58091 /* previewPage.swift */; };
+		FE6467FA25894A4A00D58091 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6467F725894A4A00D58091 /* PreviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FE6467DE258948FD00D58091 /* Things-OwnedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Things-OwnedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6467E2258948FD00D58091 /* Things_OwnedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Things_OwnedUITests.swift; sourceTree = "<group>"; };
 		FE6467E4258948FD00D58091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6467F625894A4A00D58091 /* previewPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = previewPage.swift; path = "../../../Things-Owned1/Things-Owned/previewPage.swift"; sourceTree = "<group>"; };
+		FE6467F725894A4A00D58091 /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreviewViewController.swift; path = "../../../Things-Owned1/Things-Owned/PreviewViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		FE6467BF258948F800D58091 /* Things-Owned */ = {
 			isa = PBXGroup;
 			children = (
+				FE6467F625894A4A00D58091 /* previewPage.swift */,
+				FE6467F725894A4A00D58091 /* PreviewViewController.swift */,
 				FE6467C0258948F800D58091 /* AppDelegate.swift */,
 				FE6467C2258948F800D58091 /* SceneDelegate.swift */,
 				FE6467C4258948F800D58091 /* ViewController.swift */,
@@ -261,6 +267,8 @@
 				FE6467C5258948F800D58091 /* ViewController.swift in Sources */,
 				FE6467C1258948F800D58091 /* AppDelegate.swift in Sources */,
 				FE6467C3258948F800D58091 /* SceneDelegate.swift in Sources */,
+				FE6467FA25894A4A00D58091 /* PreviewViewController.swift in Sources */,
+				FE6467F925894A4A00D58091 /* previewPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
