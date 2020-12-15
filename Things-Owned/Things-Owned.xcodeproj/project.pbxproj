@@ -54,7 +54,7 @@
 		FE6467E4258948FD00D58091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE825DE225894D3D00D8CCC4 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		FE825DF225894D9F00D8CCC4 /* previewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = previewPage.swift; sourceTree = "<group>"; };
-		FE825E122589506100D8CCC4 /* LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreen.png; sourceTree = "<group>"; };
+		FE825E122589506100D8CCC4 /* LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchScreen.png; path = Images/LaunchScreen.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
