@@ -17,6 +17,7 @@
 		FE6467E3258948FD00D58091 /* Things_OwnedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6467E2258948FD00D58091 /* Things_OwnedUITests.swift */; };
 		FE6467F925894A4A00D58091 /* previewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6467F625894A4A00D58091 /* previewPage.swift */; };
 		FE6467FA25894A4A00D58091 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6467F725894A4A00D58091 /* PreviewViewController.swift */; };
+		FE64680425894BA200D58091 /* LaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = FE64680325894BA100D58091 /* LaunchScreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		FE6467E4258948FD00D58091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE6467F625894A4A00D58091 /* previewPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = previewPage.swift; path = "../../../Things-Owned1/Things-Owned/previewPage.swift"; sourceTree = "<group>"; };
 		FE6467F725894A4A00D58091 /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreviewViewController.swift; path = "../../../Things-Owned1/Things-Owned/PreviewViewController.swift"; sourceTree = "<group>"; };
+		FE64680325894BA100D58091 /* LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchScreen.png; path = "../../../../../.Trash/Images 1.52.44 PM/LaunchScreen.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		FE6467B4258948F800D58091 = {
 			isa = PBXGroup;
 			children = (
+				FE64680225894B9300D58091 /* Images */,
 				FE6467BF258948F800D58091 /* Things-Owned */,
 				FE6467D6258948FD00D58091 /* Things-OwnedTests */,
 				FE6467E1258948FD00D58091 /* Things-OwnedUITests */,
@@ -132,6 +135,14 @@
 				FE6467E4258948FD00D58091 /* Info.plist */,
 			);
 			path = "Things-OwnedUITests";
+			sourceTree = "<group>";
+		};
+		FE64680225894B9300D58091 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FE64680325894BA100D58091 /* LaunchScreen.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +250,7 @@
 			files = (
 				FE6467CD258948FD00D58091 /* LaunchScreen.storyboard in Resources */,
 				FE6467CA258948FD00D58091 /* Assets.xcassets in Resources */,
+				FE64680425894BA200D58091 /* LaunchScreen.png in Resources */,
 				FE6467C8258948F800D58091 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
