@@ -1,4 +1,3 @@
-//Test
 import UIKit
 
 class PreviewViewController: UIPageViewController, UIPageViewControllerDataSource, MainVCDelegate {
