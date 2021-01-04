@@ -11,10 +11,12 @@ class PreviewViewController: UIPageViewController, UIPageViewControllerDataSourc
         let vc1 = sb.instantiateViewController(withIdentifier: "preview1") as! previewPage
         let vc2 = sb.instantiateViewController(withIdentifier: "preview2") as! previewPage
         let vc3 = sb.instantiateViewController(withIdentifier: "preview3") as! previewPage
+        let vc4 = sb.instantiateViewController(withIdentifier: "preview4") as! previewPage
         vc1.delegate = self
         vc2.delegate = self
         vc3.delegate = self
-        return [vc1, vc2, vc3]
+        vc4.delegate = self
+        return [vc1, vc2, vc3, vc4]
     }()
     
     override func viewDidLoad() {
@@ -34,7 +36,6 @@ class PreviewViewController: UIPageViewController, UIPageViewControllerDataSourc
         
         currentPage = vcIndex
         
-        print(currentPage)
         guard previousIndex >= 0 else { return nil }
 
         guard viewControllerList.count > previousIndex else { return nil }
@@ -50,7 +51,6 @@ class PreviewViewController: UIPageViewController, UIPageViewControllerDataSourc
         
         currentPage = vcIndex
         
-        print(currentPage)
 
         guard viewControllerList.count != nextIndex else { return nil }
 
