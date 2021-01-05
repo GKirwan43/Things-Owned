@@ -2,7 +2,7 @@ import UIKit
 
 class PreviewViewController: UIPageViewController, UIPageViewControllerDataSource, MainVCDelegate {
     
-    //Jackson is gay
+    //Jackson is gay1
     
     var currentPage = 0;
     
