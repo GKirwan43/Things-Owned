@@ -2,8 +2,6 @@ import UIKit
 
 class PreviewViewController: UIPageViewController, UIPageViewControllerDataSource, MainVCDelegate {
     
-    //Jackson is gay1
-    
     var currentPage = 0;
     
     lazy var viewControllerList:[UIViewController] = {
